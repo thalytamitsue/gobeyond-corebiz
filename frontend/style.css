@@ -1,0 +1,117 @@
+footer {
+    margin-top: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+}
+
+footer .Address {
+    color: #fff;
+}
+
+footer .Address h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #fff;
+}
+
+footer .Address h3::after{
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-color: #fff;
+    content: "";
+    margin-top: 16px;
+}
+
+footer .Address a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer .content-footer .Contact ul{
+    width: 195px;
+    height: 101px;
+}
+
+footer .Contact ul li{
+    background-color: #fff;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    height: 38px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+footer .Contact ul li:last-child{
+    margin-bottom: 0;
+}
+
+footer .Contact ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-family: Nunito;
+    font-style: normal;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+footer .Contact ul li a::before{
+    content: "";
+    background-image: url("image/email-icon.png");
+    height: 16px;
+    width: 16px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+footer .Contact ul li:last-child a::before{
+    background-image: url("image/headphone-icon.png");
+    height: 16px;
+    width: 16px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+footer .content-footer .contact ul li:last-child a::before{
+    background-image: url('image/headphone-ico.png');
+    width: 30px;
+}
+
+footer .Created {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+footer .Created .class Logo Corebiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer .Created .class Logo VTEX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
